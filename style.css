@@ -1,0 +1,188 @@
+body{
+ 
+    background-color: #ebdede;
+    margin: 0;
+ 
+}
+ 
+.Banner{
+ 
+    background-image:url(images/Background.jpg);
+ 
+    background-position: center;
+ 
+    background-size: cover;
+ 
+    color: rgba(255, 255, 255, 0.849);
+ 
+    text-align: center;
+ 
+    padding: 150px 0;
+ 
+}
+.card1{
+    margin-top: 30px 10px;
+    font-size: 64px;
+    background-color: white;
+    font-weight: 700;
+    margin: 20px auto;
+    width: 900px;
+    text-align: center;
+    height: 300px;
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    padding: 20px ;
+
+ 
+}
+.card{
+   
+    margin-top: 30px 10px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+header{
+ 
+    box-sizing: border-box;
+ 
+}
+ 
+.Banner h1{
+ 
+    font-size: 64px;
+ 
+    font-weight: 900;
+ 
+}
+.card h4{
+font-size: 18px;
+}
+
+
+.card2{
+    margin-top: 30px 10px;
+    font-size: 64px;
+    background-color: white;
+    font-weight: 700;
+    margin: 20px auto;
+    width: 900px;
+    text-align: center;
+    height: 300px;
+    color: black;
+    font-size: 20px;
+    padding: 20px ;
+
+ 
+}
+
+
+.Banner p{
+ 
+    font-size: 32px;
+ 
+}
+ 
+ .banner h3{
+    font-size: 32px;
+ } 
+.btn-black {
+ 
+    text-decoration: none;
+ 
+    border-radius: 4px;
+ 
+    box-shadow: 0 10px 20px rgba(214, 209, 209, 0.1);
+ 
+    background-color: black;
+ 
+    padding: 15px 25px;
+ 
+    color: white;
+ 
+    font-weight: 600;
+ 
+    font-size: 24px;
+ 
+}
+.btn-black {
+    Transition: 0,5s;
+    display: inline-block;
+}
+ .btn-black: :hover{
+Transform :Translate(30px,30px)
+ }
+ 
+ 
+.container {
+ 
+    margin: 20px auto;
+ 
+    width: 900px;
+ 
+    text-align: center;
+    
+    font-size: 12px;
+    
+ 
+ 
+}
+ 
+ 
+ 
+.card {
+ 
+    box-shadow: 0 10px 20px rgba(0, 0,0,0.1);
+ 
+    padding: 20px;
+ 
+    border-radius: 4px;
+ 
+    margin: 30px 10px;
+ 
+}
+ 
+ 
+ 
+.card img {
+ 
+    border-radius: 4px;
+ 
+    width: 100%;
+ 
+    height: 150px;
+ 
+    object-fit: cover;
+ 
+}
+ 
+.Cards{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+ 
+}
+ 
+.footer{
+ 
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-size: 20px;
+    padding: 10px ;
+ 
+}
+.effect:hover {
+    box:shadow:0 10px 20px rgba(133,58,58,0,4);
+    transform:scale (1.2);
+    background-color: white;
+}
+.effect {
+    transition: 0,5s;
+}
